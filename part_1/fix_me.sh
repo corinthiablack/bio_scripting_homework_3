@@ -1,9 +1,8 @@
 #!/bin/bash
 
 # Reading data from the user's input
-read - p 'Enter a:' a
-           read
-    - p 'Enter b:' b
+read - p "Enter a:" a
+read - p "Enter b:" b
 
           add
     = $((a + b))
