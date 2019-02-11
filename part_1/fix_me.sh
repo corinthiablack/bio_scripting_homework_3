@@ -7,16 +7,16 @@ read -p "Enter b:" b
     add=$((a + b))
         echo Addition of a and b are $add
 
-    sub = $((a - b))
+    sub=$((a - b))
         echo Subtraction of a and b are $sub
 
-    mul = $((a * b))
+    mul=$((a * b))
         echo Multiplication of a and b are $mul
 
-    div = $((a / d))
+    div=$((a / d))
         echo division of a and b are $div
 
-    mod = $((a % b))
+    mod=$((a % b))
           echo Modulus of and b are $mod
 
       ((++a))
