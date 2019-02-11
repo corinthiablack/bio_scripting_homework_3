@@ -9,6 +9,8 @@ b = input("Enter b : ")
 
 print("You entered", b, "which is a", type(b))
 
+a=int(a)
+b=int(b)
 
 #######################################################################
 # HINT: why would we be checking what type a and b are again?
